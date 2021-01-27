@@ -1,0 +1,259 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "app/styles/app-base.scss";
+@import "app/styles/variables.scss";
+@import "app/styles/override.scss";
+@import "app/styles/mobile.scss";
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", Serif, Sans-serif, cursive, fantasy, Monospace;
+  // text-align: center;
+  color: #4f4f4f;
+}
+
+.time-popover-override {
+  .popover {
+    margin-left: 285px !important;
+  }
+
+  .popover.bottom .arrow {
+    margin-left: 96px !important;
+  }
+
+  .popover .btn-link {
+    font-weight: 400;
+    color: #4f4f4f;
+    text-decoration: none;
+  }
+
+  .popover .btn {
+    color: #495057;
+    outline: none;
+  }
+}
+
+.ngb-dp-arrow .btn-link {
+  color: #4f4f4f;
+  outline: none;
+}
+
+.ngb-dp-weekday {
+  color: #4f4f4f;
+}
+
+.video-js .vjs-big-play-button {
+  margin-left: 44%;
+  margin-top: 20%;
+}
+
+//video
+.vjs-fluid {
+  overflow: hidden;
+}
+.vjs-control-bar {
+  display: block;
+}
+.vjs-control {
+  position: absolute;
+}
+.vjs-progress-control {
+  bottom: 28px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+}
+.vjs-progress-holder {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  height: 8px;
+  width: 100%;
+}
+.vjs-play-progress,
+.vjs-load-progress {
+  height: 8px;
+}
+.vjs-play-progress:before {
+  font-size: 12px;
+  top: -2px;
+  text-shadow: 0 0 2px black;
+}
+.vjs-current-time {
+  display: block;
+  left: 35px;
+}
+.vjs-time-divider {
+  position: absolute;
+  display: block;
+  left: 70px;
+}
+.vjs-remaining-time {
+  display: none;
+}
+.vjs-duration {
+  display: block;
+  left: 70px;
+}
+.vjs-volume-menu-button {
+  position: absolute;
+  bottom: 0;
+  right: 55px;
+}
+.vjs-playback-rate {
+  position: absolute;
+  bottom: 0;
+  right: 28px;
+}
+.vjs-fullscreen-control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+// .video-js.vjs-custom-skin {
+//   .vjs-custom-control-spacer {
+//     display: flex;
+//     flex: 1 1 auto;
+//   }
+//   .vjs-time-divider {
+//     display: inherit;
+//   }
+//   .vjs-current-time {
+//     margin-left: 1em;
+//   }
+//   .vjs-current-time,
+//   .vjs-duration {
+//     display: inherit;
+//     padding: 0;
+//   }
+//   .vjs-remaining-time {
+//     display: none;
+//   }
+//   .vjs-play-progress:before {
+//     display: none;
+//   }
+//   .vjs-progress-control {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 0.5em;
+//     top: -0.5em;
+
+//     &:hover {
+//       height: 1.5em;
+//       top: -1.5em;
+//     }
+//   }
+//   .vjs-progress-holder {
+//     margin: 0;
+//     height: 100%;
+//   }
+// }
+
+// .vjs-fluid {
+//   overflow: hidden;
+// }
+
+#my_video_1 .vjs-control-bar {
+  display: block;
+}
+#my_video_1 .vjs-control {
+  position: absolute;
+}
+#my_video_1 .vjs-progress-control {
+  bottom: 28px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+}
+#my_video_1 .vjs-progress-holder {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  height: 8px;
+  width: 100%;
+}
+#my_video_1 .vjs-play-progress,
+#my_video_1 .vjs-load-progress {
+  height: 8px;
+}
+#my_video_1 .vjs-play-progress:before {
+  font-size: 12px;
+  top: -2px;
+  text-shadow: 0 0 2px black;
+}
+#my_video_1 .vjs-current-time {
+  display: block;
+  left: 35px;
+}
+#my_video_1 .vjs-time-divider {
+  position: absolute;
+  display: block;
+  left: 70px;
+}
+#my_video_1 .vjs-remaining-time {
+  display: none;
+}
+#my_video_1 .vjs-duration {
+  display: block;
+  left: 70px;
+}
+#my_video_1 .vjs-volume-menu-button {
+  position: absolute;
+  bottom: 0;
+  right: 55px;
+}
+#my_video_1 .vjs-playback-rate {
+  position: absolute;
+  bottom: 0;
+  right: 28px;
+}
+#my_video_1 .vjs-fullscreen-control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.video-js .vjs-volume-panel {
+  margin-left: 118px !important;
+}
+
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+  margin-left: 18px !important;
+}
+#my_video_1 .vjs-time-divider {
+  left: 62px !important;
+}
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+  display: none !important;
+}
+
+.vjs-audio-button vjs-menu-button vjs-menu-button-popup vjs-button {
+  display: none !important;
+}
+
+// #my_video_1 .vjs-subs-caps-button vjs-button {
+//   display: none !important;
+// }
+// .vjs-texttrack-settings {
+//   display: none !important;
+// }
+// .vjs-texttrack-settings {
+//   display: none;
+// }
+.video-js .vjs-captions-button .vjs-icon-placeholder,
+.video-js:lang(en) .vjs-subs-caps-button .vjs-icon-placeholder,
+.video-js:lang(fr-CA) .vjs-subs-caps-button .vjs-icon-placeholder,
+.vjs-icon-captions {
+  display: none !important;
+}
+
+.video-js .vjs-audio-button .vjs-icon-placeholder,
+.vjs-icon-audio {
+  display: none !important;
+}
